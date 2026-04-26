@@ -433,7 +433,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.7",
+          "Microsoft.AspNetCore.OpenApi": "10.0.0",
           "MyApp.Core": "1.0.0"
         },
         "compile": {
@@ -1036,6 +1036,7 @@
       "outputPath": "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/NuGet.Config",
         "/Users/nardo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [

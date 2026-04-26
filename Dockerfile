@@ -3,18 +3,19 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # ✅ Pin NuGet packages to a known path inside the image
-ENV NUGET_PACKAGES=/root/.nuget/packages
+# ENV NUGET_PACKAGES=/root/.nuget/packages
 
 COPY MyApp.slnx .
 COPY MyApp.Api/MyApp.Api.csproj MyApp.Api/
 COPY MyApp.Core/MyApp.Core.csproj MyApp.Core/
 COPY MyApp.Tests/MyApp.Tests.csproj MyApp.Tests/
 
-RUN dotnet restore MyApp.slnx
+#RUN dotnet restore MyApp.slnx
 
 COPY . .
 
-RUN dotnet build MyApp.slnx --no-restore --configuration Release
+# RUN dotnet build MyApp.slnx --no-restore --configuration Release
+RUN dotnet build MyApp.slnx --configuration Release
 RUN dotnet publish MyApp.Api/MyApp.Api.csproj -c Release -o /app/publish --no-build
 
 # Runtime stage

@@ -14,6 +14,7 @@
         "outputPath": "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/NuGet.Config",
           "/Users/nardo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -51,7 +52,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.7, )"
+              "version": "[10.0.*, )"
             }
           },
           "imports": [
@@ -501,6 +502,7 @@
         "outputPath": "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/NuGet.Config",
           "/Users/nardo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
