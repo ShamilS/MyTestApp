@@ -1,0 +1,43 @@
+docker compose pull   # pulls latest from GHCR
+docker compose up -d  # starts in background
+docker compose logs -f # tail logs
+docker compose down   # stop and remove
+
+# Check container is running
+docker ps
+
+# Tail live logs
+docker logs -f myapp
+
+# Open a shell inside the running container
+docker exec -it myapp /bin/bash
+
+# Check what port is exposed
+docker inspect myapp | grep -i port
+
+=== How to login to GHCR ---
+
+Step 1: Login to GHCR
+
+First generate a PAT token on GitHub:
+
+GitHub → Settings → Developer Settings 
+    → Personal Access Tokens → Tokens (classic) 
+    → New token →  check read:packages → Generate
+
+Then login:
+
+bash> echo YOUR_PAT_TOKEN | docker login ghcr.io -u {GitHub user name} --password-stdin
+
+You should see: Login Succeeded
+
+
+==== test ====
+
+http://localhost:8080/weatherforecast
+
+[{"date":"2026-04-27","temperatureC":-9,"summary":"Mild","temperatureF":16},{"date":"2026-04-28","temperatureC":4,"summary":"Bracing","temperatureF":39},{"date":"2026-04-29","temperatureC":-9,"summary":"Chilly","temperatureF":16},{"date":"2026-04-30","temperatureC":-20,"summary":"Sweltering","temperatureF":-3},{"date":"2026-05-01","temperatureC":-8,"summary":"Chilly","temperatureF":18}]
+
+
+
+
