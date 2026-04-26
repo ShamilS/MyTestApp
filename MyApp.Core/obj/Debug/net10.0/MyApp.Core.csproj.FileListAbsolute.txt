@@ -1,0 +1,12 @@
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/bin/Debug/net10.0/MyApp.Core.deps.json
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/bin/Debug/net10.0/MyApp.Core.dll
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/bin/Debug/net10.0/MyApp.Core.pdb
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.AssemblyInfoInputs.cache
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.AssemblyInfo.cs
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.csproj.CoreCompileInputs.cache
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.sourcelink.json
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.dll
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/refint/MyApp.Core.dll
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/MyApp.Core.pdb
+/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Core/obj/Debug/net10.0/ref/MyApp.Core.dll

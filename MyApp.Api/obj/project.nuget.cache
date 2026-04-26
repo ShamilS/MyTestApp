@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QkiqSBY0vPY=",
+  "success": true,
+  "projectFilePath": "/Users/nardo/Learning/test_dotnet/CI_CD/MyTestApp/MyApp.Api/MyApp.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/nardo/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "/Users/nardo/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
