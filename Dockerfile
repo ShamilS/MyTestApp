@@ -1,5 +1,5 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:10.0.203 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 COPY MyApp.slnx .
@@ -14,7 +14,7 @@ RUN dotnet build MyApp.slnx --no-restore --configuration Release
 RUN dotnet publish MyApp.Api/MyApp.Api.csproj -c Release -o /app/publish --no-build
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:10.0.203 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "MyApp.Api.dll"]
