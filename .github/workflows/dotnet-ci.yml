@@ -22,7 +22,7 @@ jobs:
         run: dotnet restore
 
       - name: Build
-        run: dotnet build MyApp.sln --no-restore --configuration Release
+        run: dotnet build MyApp.slnx --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test MyApp.sln --no-build --configuration Release --verbosity normal
+        run: dotnet test MyApp.slnx --no-build --configuration Release --verbosity normal
